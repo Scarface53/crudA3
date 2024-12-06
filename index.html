@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CRUD</title>
+</head>
+
+<body>
+    <header>
+        <h1>CRUD</h1>
+    </header>
+    <main>
+        <div id="painel">
+           <input type="text" class="nome" placeholder="Nome do aluno"><br>
+           <input type="number" class="matricula" placeholder="Matricula com 5 digitos" maxlength="5" pattern="\d{5}"><br>
+           <button class="botaoCadastro">Cadastrar</button>
+        </div>
+        <div id="filtrar">
+            <input type="text" class="pesquisaNome" placeholder="Nome para pesquisa">
+            <button class="pesquinaNomeBotao">Pesquisar</button>
+            <input type="number" class="pesquisaMatricula" placeholder="Matricula para pesquisa">
+            <button class="pesquinaMatriculaBotao">Pesquisar</button>
+        </div>
+    </main>
+    <section>
+        <div class="cadastrosContainer">
+        <div class="cadastrados">
+            <div class="informacoes">
+                <h3>Nome</h3>
+                <h4>Matricula</h4>
+            </div>
+            <div class="botoes">
+                <button class="editar">Editar</button>
+                <button class="excluir">Excluir</button>
+            </div>
+           
+        </div>
+        <div class="cadastrados">
+            <div class="informacoes">
+                <h3>Nome</h3>
+                <h4>Matricula</h4>
+            </div>
+            <div class="botoes">
+                <button class="editar">Editar</button>
+                <button class="excluir">Excluir</button>
+            </div>
+        </div>
+    </div>
+        
+        
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
